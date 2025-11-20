@@ -17,4 +17,4 @@
          // ปิด scanf 
          input.close();
  } 
-}
+}     
