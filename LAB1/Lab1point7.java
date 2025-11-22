@@ -6,17 +6,16 @@
 
         Scanner input = new Scanner(System.in); 
 
-        int N = input.nextInt(); 
-        int Sum = 0 ; 
+        int n = input.nextInt(); 
+        int sum = 0 ; 
 
-        for (int i = 0 ; i < N ; i ++) {
+        for (int i = 0 ; i < n ; i ++) {
 
             int j = input.nextInt(); 
 
-            Sum += j ; 
-
+            sum += j ; 
         } 
-        System.out.println(Sum); 
+        System.out.println(sum); 
         input.close();
     } 
     

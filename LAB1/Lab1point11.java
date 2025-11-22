@@ -1,7 +1,7 @@
     import java.util.Scanner; 
     public class Lab1point11 {
 
-        public static void main(String[] args) {
+        public static void main(String[] sumarrrr) {
             Scanner input = new Scanner(System.in); 
 
             int N = input.nextInt(); 

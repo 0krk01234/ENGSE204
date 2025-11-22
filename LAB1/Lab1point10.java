@@ -1,13 +1,13 @@
 import java.util.Scanner; 
 public class Lab1point10 {
 
-    public static void main(String[] args) {
+    public static void main(String[] areaaaa) {
         Scanner input = new Scanner(System.in); 
 
-        double width = input.nextDouble(); 
-        double height = input.nextDouble(); 
+        double wid = input.nextDouble(); 
+        double high = input.nextDouble(); 
 
-        double area = calculateArea(width, height); 
+        double area = calculateArea(wid, high); 
 
         System.out.println(area);
         input.close(); 
