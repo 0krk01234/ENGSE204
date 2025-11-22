@@ -5,11 +5,11 @@ public class Lab1point6 {
 
             Scanner input = new Scanner(System.in); 
 
-            int multiplicationTable = input.nextInt(); 
+            int multi = input.nextInt(); 
 
-            if(multiplicationTable >=1 && multiplicationTable <= 12 ) {
-                for(int i = 1 ; i <= 12 ; i++) { // loop ตัวคูณ
-                    System.out.printf("%d x %d = %d\n", multiplicationTable , i , (multiplicationTable * i));
+            if(multi >=1 && multi <= 12 ) {
+                for(int i = 1 ; i <= 12 ; i++) { 
+                    System.out.printf("%d x %d = %d\n", multi , i , (multi * i));
                 } 
             } 
 
