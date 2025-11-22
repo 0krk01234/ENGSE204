@@ -13,9 +13,9 @@ public class Lab1point13 {
                 arr[i][j] = input.nextInt();
             }
         }
-
+        
         int cnt = 0;
-
+        
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 if (arr[i][j] == 1) {
