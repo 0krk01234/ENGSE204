@@ -5,24 +5,24 @@
 
             Scanner input = new Scanner(System.in); 
 
-            int N = input.nextInt();
+            int n = input.nextInt();
 
-            int[] numBer = new int[N]; 
+            int[] numpee = new int[n]; 
 
-            for (int i = 0 ; i < N ; i ++) { 
+            for (int i = 0 ; i < n ; i ++) { 
 
-                numBer[i] = input.nextInt();
+                numpee[i] = input.nextInt();
 
             } 
 
-            int Max = 0 ;
+            int x = 0 ;
 
-            for (int i = 0 ; i < N ; i++) { 
-                if (numBer[i] > Max) { 
-                    Max = numBer[i] ; 
+            for (int i = 0 ; i < n ; i++) { 
+                if (numpee[i] > x) { 
+                    x = numpee[i] ; 
                 } 
             } 
-            System.out.println(Max); 
+            System.out.println(x); 
             input.close();
         }  
 } 
