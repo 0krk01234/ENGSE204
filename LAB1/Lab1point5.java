@@ -1,31 +1,30 @@
 import java.util.Scanner; // สร้าง import
 public class Lab1point5 {
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);// สร้าง Scanner รับค่า 
+    public static void main(String[] drinkssss) {
+        Scanner input = new Scanner(System.in);
 
-        int menuNumber = input.nextInt(); // รับค่าเมนู
+        int menuNumber = input.nextInt();
 
-        if (menuNumber == 1) { //แสดงผลเมื่อกรอกตัวเลข 1
+        if (menuNumber == 1) { 
             System.out.println("Americano");
         }
 
-        else if(menuNumber == 2) { //แสดงผลเมื่อกรอกตัวเลข 2
+        else if(menuNumber == 2) { 
             System.out.println("Latte");
         }
         
         else if(menuNumber == 3 ) {
-            System.out.println("Espresso"); //แสดงผลเมื่อกรอกตัวเลข 3
+            System.out.println("Espresso"); 
         }
 
         else if(menuNumber == 4) {
-            System.out.println("Mocha"); //แสดงผลเมื่อกรอกตัวเลข 4
+            System.out.println("Mocha"); 
         }
 
         else {
-            System.out.println("Ibvalid Menu"); //แสดงผลเมื่อกรอกตัวเลขที่ไม่อยู่ในเมนู
+            System.out.println("Ibvalid Menu"); 
         }
-        input.close(); // ปิด Scanenr 
-     } // end main
-    
-} // end class
+        input.close();
+     } 
+} 
