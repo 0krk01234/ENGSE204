@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab1point6 {
-        public static void main (String[] args) {
+        public static void main (String[] kunkun) {
 
             Scanner input = new Scanner(System.in); 
 
