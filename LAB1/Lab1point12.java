@@ -12,21 +12,19 @@ public class Lab1point12 {
 
         for(int i = 1 ; i < N + 1 ; i ++) {
 
-            System.out.printf("ID ชิ้นที่ %d" , i);
             ID[i] = input.nextInt();
             
-            System.out.printf("Stock ชิ้นที่ %d" , i);
             Stock[i] = input.nextInt();
         }
 
-        System.out.print("password find");
+        System.out.print("pass");
         int serch = input.nextInt();
 
         boolean cchek = false;
 
         for (int i = 1; i <= N; i++) {
             if (serch == ID[i]) {
-            System.out.printf("พบสินค้า ID %d อยู่ในตำแหน่ง %d\n", serch, i);
+            System.out.printf(" %d", Stock[i]);
             cchek = true;
             break;
             }
