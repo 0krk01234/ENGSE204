@@ -1,24 +1,24 @@
-import java.util.Scanner; // import
+import java.util.Scanner; 
 public class Lab1point10 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // สร้าง Scanner
+        Scanner input = new Scanner(System.in); 
 
-        double width = input.nextDouble(); // รับค่า width
-        double height = input.nextDouble(); // รับค่า height
+        double width = input.nextDouble(); 
+        double height = input.nextDouble(); 
 
-        double area = calculateArea(width, height); // นำตัวแปร width และ height เข้าฟังก์ชั่น
+        double area = calculateArea(width, height); 
 
-        System.out.println(area); // แสดงผล area
-        input.close(); // ปิด Scanner
+        System.out.println(area);
+        input.close(); 
     }
 
-    public static double calculateArea(double width , double height) { // ฟังก์ชั่น หา area
+    public static double calculateArea(double width , double height) { 
 
-        double area = width * height ; // นำ width และ height คูณกันเพื่อหาผลรวม area
+        double area = width * height ; 
 
-        return area; // return ผลลัพธ์ area กลับไป main หลัก
+        return area; 
 
-    } // end ฟังก์ชั้น calculateArea 
+    }  
     
-} // end class
+} 

@@ -1,18 +1,16 @@
 
-        import java.util.Scanner; //import 
+        import java.util.Scanner; 
 
         public class Lab1point2 { 
-         public static void main(String[] args) { 
-
-         // สร้าง Scanner 
+         public static void main(String[] area) { 
 
          Scanner input = new Scanner(System.in);
 
-         double Width = input.nextDouble(); //รับค่า ความกว้าง
-         double Height = input.nextDouble(); //รับค่า ความสูง
+         double Wid = input.nextDouble(); 
+         double High = input.nextDouble(); 
          
-         System.out.println(Width * Height); //แสดง area
-         // ปิด scanf 
+         System.out.println(Wid * High); 
+        
          input.close();
          }     
       }      

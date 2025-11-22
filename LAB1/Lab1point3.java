@@ -1,21 +1,20 @@
    
    
-    import java.util.Scanner; // สร้าง import
+    import java.util.Scanner; 
     public class Lab1point3 {
-        public static void main (String[] args) { 
+        public static void main (String[] evenadnodd) { 
 
-        Scanner input = new Scanner(System.in); // สร้าง Scanner เพื่อรับค่า 
+        Scanner input = new Scanner(System.in); 
 
-        int numBer = input.nextInt(); // รับค่าเลข
+        int numBer = input.nextInt(); 
 
         if (numBer % 2 == 0) {
-            System.out.println("Even"); //แสดงผลเมื่อเป็นเลขคู่
+            System.out.println("Even"); 
         }
 
         else {
-            System.out.println("Odd"); // แสดงผลเมื่อเป็นเลขคี่
+            System.out.println("Odd"); 
         }
-        input.close(); //ปิด Scanner
-        } // end main
-    } // End class
-
+        input.close(); 
+        }
+    } 

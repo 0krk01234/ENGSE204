@@ -1,23 +1,23 @@
-    import java.util.Scanner; // import 
+    import java.util.Scanner; 
 
     public class Lab1point7 {
 
-    public static void main(String[] args) { // main หลัก
+    public static void main(String[] allarry) {
 
-        Scanner input = new Scanner(System.in); // สร้าง Scanner
+        Scanner input = new Scanner(System.in); 
 
-        int N = input.nextInt(); // รับค่า N 
-        int Sum = 0 ; // กำหนดตัวแปร Sum = 0
+        int N = input.nextInt(); 
+        int Sum = 0 ; 
 
-        for (int i = 0 ; i < N ; i ++) { // loop for ที่เริ่มตั้งแต่ ครั้งที่ 0 แล้วจบเมื่อ น้อยกว่า จำนวน N
+        for (int i = 0 ; i < N ; i ++) {
 
-            int j = input.nextInt(); // รับค่า J เพื่อนำไปบวกกับ Sum ให้ได้ผลรวม
+            int j = input.nextInt(); 
 
-            Sum += j ; // นำค่า J ไปบวกกับ Sum จนกว่าจะจบ loop
+            Sum += j ; 
 
-        } // end for
-        System.out.println(Sum); // แสดงค่าผลรวม
-        input.close(); // ปิด Scanner
-    } // end main
+        } 
+        System.out.println(Sum); 
+        input.close();
+    } 
     
-} // end class
+} 

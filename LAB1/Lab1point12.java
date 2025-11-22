@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Lab1point12 {
     
-    public static void main (String[] args) {
+    public static void main (String[] sinka) {
 
         Scanner input = new Scanner(System.in) ;
 
@@ -22,17 +22,17 @@ public class Lab1point12 {
         System.out.print("password find");
         int serch = input.nextInt();
 
-        boolean found = false;
+        boolean cchek = false;
 
         for (int i = 1; i <= N; i++) {
             if (serch == ID[i]) {
             System.out.printf("พบสินค้า ID %d อยู่ในตำแหน่ง %d\n", serch, i);
-            found = true;
+            cchek = true;
             break;
             }
         }
 
-        if (!found) {
+        if (!cchek) {
             System.out.printf("Product %d not found\n", serch);
         }
 
