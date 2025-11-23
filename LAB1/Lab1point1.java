@@ -1,17 +1,15 @@
-      import java.util.Scanner; //import 
+      import java.util.Scanner; 
 
       public class Lab1point1 { 
-         public static void main(String[] args) { 
+         public static void main(String[] passnumei) { 
 
-         // สร้าง Scanner 
 
          Scanner input = new Scanner(System.in);
 
-         int Number1 = input.nextInt(); //รับค่า num1
-         int Number2 = input.nextInt(); //รับค่า num2
+         int numpee = input.nextInt(); 
+         int numbee = input.nextInt(); 
          
-         System.out.println(Number1 + Number2); 
-         // ปิด Scanner
+         System.out.println(numpee + numbee); 
          input.close();
          }     
       }      
