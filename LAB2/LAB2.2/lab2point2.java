@@ -8,14 +8,14 @@ public class lab2point2 {
         String id = input.nextLine();
         String name = input.nextLine();
 
-        Student S1 = new Student(id, name); // สร้าง object ปกติ
+        Student S1 = new Student(id, name);
         S1.displayInfo();
         input.nextLine();
         input.close();
     }
 }
 
-// คลาส Student แยกออกมาแล้ว
+
 class Student {
     String studentID;
     String name;
