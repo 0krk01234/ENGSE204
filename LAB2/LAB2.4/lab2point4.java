@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class lab2point4 {
 
-    public static void main (String[] args) {
+    public static void main (String[] kananmidandfinal) {
 
         Scanner input = new Scanner(System.in) ;
 
@@ -49,7 +49,7 @@ class Student {
 
             System.out.println("name");
             System.out.println(name);
-            System.out.printf("average score %f.2 " , average);
+            System.out.println(average);
 
             if(average < 50) {
                 System.out.println("Fail");

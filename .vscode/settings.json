@@ -1,3 +1,16 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "LAB2p10",
+        "LAB2/LAB2p9",
+        "LAB2/LAB2p11",
+        "LAB2/LAB2.8",
+        "LAB2/LAB2.5",
+        "LAB2/LAB2.4",
+        "LAB2/LAB2.3",
+        "LAB2/LAB2.2",
+        "LAB2/LAB2.1",
+        "LAB1",
+        "LAB2/LAB2.12"
+    ]
 }

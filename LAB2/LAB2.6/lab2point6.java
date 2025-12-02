@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class lab2point6 {
 
-    public static void main(String[] args) {
+    public static void main(String[] bankkkbalanceee) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter name");
