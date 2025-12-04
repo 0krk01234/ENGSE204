@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class lab2point4 {
+public class Lab2Point4 {
 
     public static void main (String[] kananmidandfinal) {
 
@@ -17,6 +17,7 @@ public class lab2point4 {
         Student S1 = new Student(name , midterm , finaal);
 
         S1.displaySummary();
+        input.close();
 
     }
 
@@ -52,11 +53,15 @@ class Student {
             System.out.println(average);
 
             if(average < 50) {
+
                 System.out.println("Fail");
+
             }
 
             else{
+
                 System.out.println("Pass");
+
             }
         }
 }
