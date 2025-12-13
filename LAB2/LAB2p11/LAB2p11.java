@@ -19,6 +19,8 @@ public class LAB2p11 {
     System.out.println("Model: " + C1.getModel());
     System.out.println("Year: " + C1.getYear());
 
+    input.close();
+
     }
     
 }

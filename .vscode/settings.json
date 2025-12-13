@@ -1,16 +1,31 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "LAB2p10",
+        "LAB3/LAB3.9",
+        "LAB3/LAB3.8",
+        "LAB3/LAB3.7",
+        "LAB3/LAB3.6",
+        "LAB3/LAB3.5",
+        "LAB3/LAB3.4",
+        "LAB3/LAB3.3",
+        "LAB3/LAB3.2",
+        "LAB3/LAB3.14",
+        "LAB3/LAB3.13",
+        "LAB3/LAB3.12",
+        "LAB3/LAB3.11",
+        "LAB3/LAB3.10",
+        "LAB3/LAB3.1",
         "LAB2/LAB2p9",
         "LAB2/LAB2p11",
         "LAB2/LAB2.8",
+        "LAB2/LAB2.6",
         "LAB2/LAB2.5",
         "LAB2/LAB2.4",
         "LAB2/LAB2.3",
         "LAB2/LAB2.2",
+        "LAB2/LAB2.12",
         "LAB2/LAB2.1",
         "LAB1",
-        "LAB2/LAB2.12"
+        "LAB3/LAB3.15"
     ]
 }

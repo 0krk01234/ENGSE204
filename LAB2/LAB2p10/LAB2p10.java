@@ -21,7 +21,10 @@ public class LAB2p10 {
             product P1 = new product(nameprod , priice);
             cart.addProduct(P1);
         }
+
         System.out.println(cart.calculateTotalPrice());
+        input.close();
+        
     }
 }
 

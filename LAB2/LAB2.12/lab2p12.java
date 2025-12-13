@@ -11,6 +11,7 @@ public class lab2p12 {
         Student S1 = new Student(namee , C1);
 
         S1.displayEnrollment();
+        input.close();
     }
 }
 
