@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class lab3point13 {
 
-    public static void main(String[] args) {
+    public static void main(String[] orderrrrrrrd) {
 
         Scanner input = new Scanner(System.in) ;
 
@@ -30,7 +30,7 @@ public class lab3point13 {
                     LicensesManager.displayStatus();
                 }
             }
-
+            input.close();
     }
     
 }
@@ -39,16 +39,16 @@ class LicensesManager {
     private static int maxLicenses = 10;
     private static int usedLincenses = 0;
 
-    public static void setMax(int max) {
-        if (max < 0 ) {
+    public static void setMax(int maxd) {
+        if (maxd < 0 ) {
             System.out.println("Invalid max value.");
         }
-        else if (max < usedLincenses) {
+        else if (maxd < usedLincenses) {
             System.out.println("Cannot set max lower than current usage.");
         }
         else {
-            maxLicenses = max ;
-            System.out.println("Max licenses set to " + max);
+            maxLicenses = maxd ;
+            System.out.println("Max licenses set to " + maxd);
         }
     }
 

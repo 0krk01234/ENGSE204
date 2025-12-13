@@ -14,6 +14,7 @@ public class lab3point7 {
         Em1.setDepartment(newPosition);
         System.out.println(Em1.getEmployeeld());
         System.out.println(Em1.getDepartment());
+        input.close();
     }
 }
 

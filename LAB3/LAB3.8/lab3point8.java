@@ -42,6 +42,7 @@ public class lab3point8 {
             }
         }
         System.out.println("Final Stock: " + Item.getStock());
+        input.close();
     }
 }
 

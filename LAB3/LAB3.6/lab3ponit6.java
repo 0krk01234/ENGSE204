@@ -14,6 +14,7 @@ public class lab3ponit6 {
         B1.deposit(deposit);
         B1.withdraw(withdraw);
         System.out.println("Final Balance: "+ B1.getBalance());
+        input.close();
     }
     
 }

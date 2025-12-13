@@ -15,8 +15,8 @@ public class lab3point12 {
         System.out.println("Tax(Before): = " + E1.calculateTax(taxRate));
         E1.giveRiase(raiseAmount);
         System.out.println("Tax (After): = " + E1.calculateTax(taxRate));
+        input.close();
     }
-    
 }
 
 class Employee {

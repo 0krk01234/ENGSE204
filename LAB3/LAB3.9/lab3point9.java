@@ -23,7 +23,7 @@ public class lab3point9 {
 
         input.close();
 
-
+        
     }
 }
 

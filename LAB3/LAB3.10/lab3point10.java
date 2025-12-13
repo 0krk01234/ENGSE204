@@ -31,6 +31,7 @@ public class lab3point10 {
                     break;
             }
         }
+        input.close();
     }
     
 }

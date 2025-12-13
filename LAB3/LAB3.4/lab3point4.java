@@ -14,6 +14,7 @@ public class lab3point4 {
         }
 
         System.out.println(Product.getProductCount());
+        input.close();
     }
     
 }

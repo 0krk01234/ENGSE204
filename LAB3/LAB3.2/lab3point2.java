@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class lab3point2 {
+public class Lab3Point2 {
     public static void main (String[] upgate_Score) {
 
         Scanner input = new Scanner(System.in);
@@ -10,7 +10,10 @@ public class lab3point2 {
         Player P1 = new Player (scoreUpdate) ;
 
         P1.setScore(scoreUpdate);
+
         System.out.println(P1.getScore());
+        
+        input.close();
     }
 }
 

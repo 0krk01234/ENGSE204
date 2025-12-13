@@ -63,6 +63,7 @@ public class lab3point14 {
                 System.out.println("ERROR INPUT!");
             }
         }
+        input.close();
     }
     
 }

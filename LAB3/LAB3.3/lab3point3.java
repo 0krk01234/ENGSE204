@@ -12,6 +12,7 @@ public class lab3point3 {
 
         U1.setPassword(newPassword);
         System.out.println(U1.getPassword());
+        input.close();
 
     }
 }

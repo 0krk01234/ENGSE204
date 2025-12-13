@@ -12,6 +12,7 @@ public class lab3point5 {
         D1.disconnect();
         D1.disconnect();
         System.out.println(D1.isConnected());
+        input.close();
     }
     
 }
