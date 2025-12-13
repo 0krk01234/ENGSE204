@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class lab3point13 {
+public class Lab3Point13 {
 
     public static void main(String[] orderrrrrrrd) {
 
