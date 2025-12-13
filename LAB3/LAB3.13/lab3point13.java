@@ -1,78 +1,112 @@
 import java.util.Scanner;
+
 public class Lab3Point13 {
+    public static void main(String[] licensemana){
 
-    public static void main(String[] orderrrrrrrd) {
+        Scanner input = new Scanner(System.in);
 
-     Scanner input = new Scanner(System.in) ;
+        int  set = input.nextInt();
 
-        int N = input .nextInt() ;
         input.nextLine();
 
-        for (int i = 0 ; i < N ; i ++) {
-            System.out.println("Enter order: ");
-            String orderee = input.nextLine();
+        for(int i = 0 ; i < set ; i ++){
 
-            if(orderee.equals("SET")) {
-                int kota = input.nextInt(); input.nextLine();       
-                LicensesManager.setMax(kota) ;
-            }
-            else if (orderee.equals("CHECKOUT")) {
-                LicensesManager.checkOut();
-            }
-            else if (orderee.equals("CHECKIN")) {
-                LicensesManager.checkIn();
-            }
-            else if (orderee.equals("STATUS")) {
-                LicensesManager.displayStatus();
+            String cmd = input.nextLine().trim();
+
+            if (cmd.equalsIgnoreCase("SET")){
+
+                System.out.println("Set Licenses ");
+                int max = input.nextInt();
+
+                LicenseManager.SetMax(max);
+
+                input.nextLine();
+
+            }else if (cmd.equalsIgnoreCase("CHECKOUT")){
+
+                LicenseManager.checkOut();
+
+            }else if (cmd.equalsIgnoreCase("CHECKIN")){
+
+                LicenseManager.checkIn();
+
+            }else if (cmd.equalsIgnoreCase("STATUS")){
+
+                LicenseManager.displayStatus();
+                
+            }else{
+
+                System.out.println("Invalid Input");
+                i--;
+
             }
         }
+
+
         input.close();
     }
     
+
 }
 
-class LicensesManager {
-    private static int maxLicenses = 10;
-    private static int usedLincenses = 0;
+    class LicenseManager {
 
-    public static void setMax(int maxd) {
-        if (maxd < 0 ) {
+    private static int maxLicenses = 10;
+    private static int usedLicenses = 0;
+
+    public static void SetMax(int max){
+
+        if ( max < 0 ){
+
             System.out.println("Invalid max value.");
-        }
-        else if (maxd < usedLincenses) {
+
+        }else if ( max < usedLicenses ){
+
             System.out.println("Cannot set max lower than current usage.");
-        }
-        else {
-            maxLicenses = maxd ;
-            System.out.println("Max licenses set to " + maxd);
+
+        }else{
+             
+            maxLicenses = max;
+            System.out.println("Max Licenses set to " + max);
+
         }
     }
 
-    public static boolean checkOut() {
+    public static boolean checkOut(){
 
-        if(usedLincenses < maxLicenses) {
-            usedLincenses += 1 ;
+        if ( usedLicenses < maxLicenses ){
+
+            usedLicenses ++;
             System.out.println("Checkout successful.");
-            return true ;
+            return true;
+
+        }else{
+
+            System.out.println("Checkout failed: No licenses available.");
+            return false;
         }
-        else {
-            System.out.println("C้eckout failed: Nolicenses availaable");
-            return false ;
-        }
+
     }
 
     public static void checkIn(){
-        if(usedLincenses > 0) {
-            usedLincenses -= 1 ;
+        
+        if ( usedLicenses > 0){
+
+            usedLicenses--;
             System.out.println("Check-in successful.");
-        }
-        else if (usedLincenses <= 0) {
-            System.out.println("Nothig to check-in.");
+
+        }else{
+
+            System.out.println("Nothing to check-in.");
+
         }
     }
 
-    public static void displayStatus() {
-        System.out.println("Used:" + usedLincenses)
-        System.out.println("Availavle: " + (maxLicenses - usedLincenses));
+    public static void displayStatus(){
+
+        System.out.println("Used : " + usedLicenses);
+        System.out.println("Available : " + (maxLicenses - usedLicenses));
+
     }
- }
+    
+}
