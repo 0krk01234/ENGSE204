@@ -3,30 +3,30 @@ public class lab3point13 {
 
     public static void main(String[] orderrrrrrrd) {
 
-        Scanner input = new Scanner(System.in) ;
+     Scanner input = new Scanner(System.in) ;
 
         int N = input .nextInt() ;
         input.nextLine();
 
             for (int i = 0 ; i < N ; i ++) {
                 System.out.println("Enter order: ");
-                String order = input.nextLine();
+                String orderee = input.nextLine();
 
-                if(order.equals("SET")) {
+                if(orderee.equals("SET")) {
                     int kota = input.nextInt(); input.nextLine();
                     
                     LicensesManager.setMax(kota) ;
                 }
 
-                else if (order.equals("CHECKOUT")) {
+                else if (orderee.equals("CHECKOUT")) {
                     LicensesManager.checkOut();
                 }
 
-                else if (order.equals("CHECKIN")) {
+                else if (orderee.equals("CHECKIN")) {
                     LicensesManager.checkIn();
                 }
 
-                else if (order.equals("STATUS")) {
+                else if (orderee.equals("STATUS")) {
                     LicensesManager.displayStatus();
                 }
             }
