@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class lab3point14 {
 
-    public static void main(String[] args) {
+    public static void main(String[] accountddd) {
         
         Scanner input = new Scanner(System.in) ;
 
