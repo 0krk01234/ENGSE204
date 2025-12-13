@@ -8,29 +8,25 @@ public class lab3point13 {
         int N = input .nextInt() ;
         input.nextLine();
 
-            for (int i = 0 ; i < N ; i ++) {
-                System.out.println("Enter order: ");
-                String orderee = input.nextLine();
+        for (int i = 0 ; i < N ; i ++) {
+            System.out.println("Enter order: ");
+            String orderee = input.nextLine();
 
-                if(orderee.equals("SET")) {
-                    int kota = input.nextInt(); input.nextLine();
-                    
-                    LicensesManager.setMax(kota) ;
-                }
-
-                else if (orderee.equals("CHECKOUT")) {
-                    LicensesManager.checkOut();
-                }
-
-                else if (orderee.equals("CHECKIN")) {
-                    LicensesManager.checkIn();
-                }
-
-                else if (orderee.equals("STATUS")) {
-                    LicensesManager.displayStatus();
-                }
+            if(orderee.equals("SET")) {
+                int kota = input.nextInt(); input.nextLine();       
+                LicensesManager.setMax(kota) ;
             }
-            input.close();
+            else if (orderee.equals("CHECKOUT")) {
+                LicensesManager.checkOut();
+            }
+            else if (orderee.equals("CHECKIN")) {
+                LicensesManager.checkIn();
+            }
+            else if (orderee.equals("STATUS")) {
+                LicensesManager.displayStatus();
+            }
+        }
+        input.close();
     }
     
 }
