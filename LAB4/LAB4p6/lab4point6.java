@@ -1,5 +1,6 @@
 import java.util.Scanner ;
-public class lab4point6 {
+
+public class Lab4Point6 {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
@@ -25,6 +26,8 @@ public class lab4point6 {
         p1.displayInfo();
         p2.displayInfo();
         p3.displayInfo();
+
+        input.close();
 
     }
 }
