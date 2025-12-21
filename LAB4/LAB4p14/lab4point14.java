@@ -46,7 +46,7 @@ class ScoreBoard {
     }
 
     public void displayInfoScores() {
-        System.out.println(this.gameName + ":" + "," + this.score[0] + "," + this.score[1] + "," + this.score[2]) ;
+        System.out.println(this.gameName + ":" + "" + this.score[0] + "," + this.score[1] + "," + this.score[2]) ;
     }
 
 }

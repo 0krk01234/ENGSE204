@@ -46,7 +46,7 @@ class Movie {
     private double rating ;
 
     public Movie(String title) {
-        this(title , "Unlnow" , 0.0) ;
+        this(title , "Unknow" , 0.0) ;
     }
 
     public Movie(String title , String director) {
