@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class lab4point15 {
+public class Lab4Point15 {
 
     public static void main(String[] args) {
         
@@ -9,6 +9,7 @@ public class lab4point15 {
         int max = input.nextInt() ;
         AuditRecord.setPolicy(max);
         input.nextLine();
+
         String user = input.nextLine();
         AuditRecord au = new AuditRecord(user);
 
@@ -22,6 +23,7 @@ public class lab4point15 {
         }
 
         au.displayLog();
+        input.close();
     }
 }
 
